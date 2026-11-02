@@ -16,7 +16,7 @@ public class first_playwright {
 		System.out.println("plawright connections is created!!");
 		
 		//2.Launch browser
-		Browser brw=pwr.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
+		Browser brw=pwr.chromium().launch(new BrowserType.LaunchOptions().setChannel("msedge").setHeadless(false));
 		
 		System.out.println("configuration of browser done!!");
 			    	
